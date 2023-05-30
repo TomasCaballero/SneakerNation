@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cartContainer {
+  padding-top: 6rem;
+  width: 100%;
+  background-color: rgb(121, 77, 77);
+}
+.cartContainer .contenido {
+  min-height: 90vh;
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cartContainer .contenido h5 {
+  padding-top: -8rem;
+  color: rgb(255, 255, 255);
+}
+.cartContainer .contenido .contenidoo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 5px;
+  gap: 1rem;
+}
+.cartContainer .contenido .contenidoo table {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  border-radius: 10px;
+}
+.cartContainer .contenido .contenidoo table thead tr .tituloTable {
+  padding-left: 10px;
+}
+.cartContainer .contenido .contenidoo table thead tr th {
+  padding: 2px;
+  border: 3px solid #000000;
+  color: black;
+  text-align: start;
+}
+.cartContainer .contenido .contenidoo table tbody tr td {
+  border: 3px solid #000000;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
+.cartContainer .contenido .contenidoo table tbody tr .tdImg img {
+  width: 100px;
+}
+.cartContainer .contenido .contenidoo table tbody tr .tdBtn {
+  padding: 10px;
+}
+.cartContainer .contenido .contenidoo table tbody tr .tdBtn .btnRemove {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding: 3px;
+  border: rgb(0, 0, 0) solid 1px;
+}
+.cartContainer .contenido .contenidoo table tbody tr .tdBtn .btnRemove:hover {
+  transition: all 700ms;
+  cursor: pointer;
+  border: rgb(121, 77, 77) solid 1px;
+}
+.cartContainer .contenido .contenidoo table tbody tr .tdPrecio {
+  padding: 2px;
+}
+.cartContainer .contenido .contenidoo table tbody tr .total {
+  padding-left: 10px;
+  text-align: start;
+}
+.cartContainer .contenido .contenidoo .btnPagar {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: rgb(0, 0, 0) solid 2px;
+  margin-bottom: 3rem;
+}
+.cartContainer .contenido .contenidoo .btnPagar:hover {
+  transition: all 700ms;
+  cursor: pointer;
+  border: rgb(255, 255, 255) solid 2px;
+}
+.cartContainer #exampleModal .modal-dialog .modal-content .modal-header .modal-title {
+  color: black;
+}
+.cartContainer #exampleModal .modal-dialog .modal-content .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cartContainer #exampleModal .modal-dialog .modal-content .modal-body input {
+  border-radius: 5px;
+  background: white;
+  color: black;
+  padding-left: 1rem;
+}
+.cartContainer #exampleModal .modal-dialog .modal-content .modal-footer button {
+  background-color: rgb(206, 206, 206);
+  background-color: black;
+  color: white;
+  border: solid black 1px;
+}
+.cartContainer #exampleModal .modal-dialog .modal-content .modal-footer button:hover {
+  transition: all 500ms;
+  border: solid rgb(196, 81, 183) 1px;
+}/*# sourceMappingURL=cart.css.map */

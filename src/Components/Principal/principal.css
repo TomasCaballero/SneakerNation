@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.galeria {
+  padding: 0.5em;
+  -moz-columns: 3 320px;
+       columns: 3 320px;
+  -moz-column-gap: 0.25em;
+       column-gap: 0.25em;
+}
+.galeria img {
+  padding: 0.5em;
+  max-width: 100%;
+}/*# sourceMappingURL=principal.css.map */

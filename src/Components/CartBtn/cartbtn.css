@@ -1,0 +1,31 @@
+.nav-item {
+  display: flex;
+  flex-direction: row;
+}
+.nav-item .contadorCarrito {
+  background-color: rgba(255, 0, 0, 0);
+  border: rgba(242, 241, 240, 0) solid 1px;
+  border-radius: 50px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.nav-item .contadorCarrito #numero {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: -3px;
+  left: 33px;
+}
+.nav-item .btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  padding-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item .btn box-icon {
+  width: 20px;
+}/*# sourceMappingURL=cartbtn.css.map */

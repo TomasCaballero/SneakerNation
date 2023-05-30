@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorProductos {
+  padding: 1rem;
+  display: grid;
+  grid-template-areas: "barraFiltros zapas zapas zapas zapas" "barraFiltros zapas zapas zapas zapas";
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.contenedorProductos .barraFiltros {
+  border: solid 1px rgb(223, 223, 223);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  grid-area: barraFiltros;
+  background-color: #c3c3c3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contenedorProductos .barraFiltros #orden h3 {
+  color: black;
+}
+.contenedorProductos .barraFiltros #orden .opciones {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.contenedorProductos .barraFiltros #orden .opciones .btn {
+  font-size: 13px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(55, 55, 55);
+}
+.contenedorProductos .barraFiltros #orden .opciones .btn:hover {
+  background-color: black;
+  transition: all 500ms;
+}
+.contenedorProductos .barraFiltros #filtro h3 {
+  color: black;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorTipo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorTipo .tituloFiltro {
+  color: black;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorTipo div label {
+  color: black;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio {
+  width: 100%;
+  padding-top: 3rem;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio .tituloFiltro {
+  color: black;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio .filtro {
+  display: flex;
+  gap: 3px;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio .filtro input {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio .filtro .btn {
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
+.contenedorProductos .barraFiltros #filtro .formFiltrarPorPrecio .filtro .btn:hover {
+  transition: all 500ms;
+  background-color: black;
+}
+.contenedorProductos .zapas {
+  grid-area: zapas;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.contenedorProductos .zapas h4 {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 720px) {
+  .contenedorProductos {
+    grid-template-areas: "barraFiltros barraFiltros barraFiltros barraFiltros" "zapas zapas zapas zapas";
+    gap: 0.5rem;
+  }
+  .contenedorProductos .barraFiltros #filtro .formFiltrarPorTipo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=itemlist.css.map */

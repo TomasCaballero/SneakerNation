@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/banner3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner .opacidad {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.511);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner .opacidad .title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 255, 255);
+  padding-right: 9rem;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px #dc99e1, 3px 3px #9d4da1, 5px 5px #532056;
+}
+.banner .opacidad .title:hover {
+  transition: all 300ms;
+  text-shadow: 1px 1px #f3e1f5, 3px 3px #c184c4, 5px 5px #873b8b;
+}
+@media (max-width: 1000px) {
+  .banner .opacidad .title {
+    font-size: 10vw;
+    padding-right: 2vw;
+  }
+}/*# sourceMappingURL=banner.css.map */

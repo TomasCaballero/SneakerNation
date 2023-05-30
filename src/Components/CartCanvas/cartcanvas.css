@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.offcanvas .offcanvas-header {
+  background-color: rgb(34, 34, 34);
+  min-height: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 17px;
+}
+.offcanvas .offcanvas-header .headerCerrar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: -30px;
+  margin-top: -10px;
+}
+.offcanvas .offcanvas-header .headerCerrar h5 {
+  margin-left: 7px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+}
+.offcanvas .offcanvas-header .headerCerrar h5:hover {
+  transition: all 500ms;
+  text-shadow: 1px 1px #dc99e1, 2px 2px #9d4da1, 3px 3px #532056;
+}
+.offcanvas .offcanvas-header .headerCerrar button {
+  background-color: white;
+  margin-right: 7px;
+}
+.offcanvas .offcanvas-header .precioTotalPagar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.offcanvas .offcanvas-header .precioTotalPagar .pagar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(213, 213, 213);
+  height: 25px;
+  width: 50px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.offcanvas .offcanvas-header .precioTotalPagar .pagar:hover {
+  transition: all 500ms;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.offcanvas .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #856086;
+}
+.offcanvas .offcanvas-body .contenedorCarrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.offcanvas .offcanvas-body .card {
+  width: 300px;
+  padding: 10px;
+}
+.offcanvas .offcanvas-body .card .nombre {
+  text-align: end;
+  padding-right: 10px;
+}
+.offcanvas .offcanvas-body .card .nombre h6 {
+  color: black;
+  font-size: larger;
+}
+.offcanvas .offcanvas-body .card .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offcanvas .offcanvas-body .card .img img {
+  width: 200px;
+}
+.offcanvas .offcanvas-body .card .precioTalle {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.offcanvas .offcanvas-body .card .precioTalle .talle {
+  font-weight: 500;
+  color: black;
+}
+.offcanvas .offcanvas-body .card .precioTalle .precio {
+  font-weight: 500;
+  color: black;
+}
+.offcanvas .offcanvas-body .card .btnRemove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offcanvas .offcanvas-body .card .btnRemove .btn {
+  font-weight: 500;
+  background-color: rgb(219, 219, 219);
+}
+.offcanvas .offcanvas-body .card .btnRemove .btn:hover {
+  transition: all 500ms;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=cartcanvas.css.map */
